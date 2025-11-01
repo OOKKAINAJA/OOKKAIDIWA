@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #fff;
+    font-size: 20px;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url(BG\ GIF.\ ⋆\ ⋆·˚\ ༘\ _\ 🔭) no-repeat;
+    background-size: cover;
+}
+
+.text h2 {
+    font-size: 30px;
+}
+
+.text {
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255,.2);
+    backdrop-filter: blur(15px);
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.body .text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+a img {
+    margin: 10px 7px;
+    margin-top: 15px;
+    border-radius: 10px;
+    transition: transform 0.3s;
+}
+
+a img:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.5);
+}
+
+.tenor-gif-embed {
+    background: transparent;
+}
+
+.music-controls {
+    margin-top: 20px;
+    text-align: center;
+}
